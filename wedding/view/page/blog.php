@@ -3,7 +3,7 @@ if (!isset($_SESSION['validarIngreso'])) {
    echo
    '
             <script>
-                window.location = "index.php?page=login";
+                window.location = "index.php?pagina=login";
             </script>
         ';
    return;
@@ -12,7 +12,7 @@ if (!isset($_SESSION['validarIngreso'])) {
       echo
       '
                 <script>
-                    window.location = "index.php?page=login";
+                    window.location = "index.php?pagina=login";
                 </script>
             ';
       return;
@@ -71,10 +71,10 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             </div>
             <ul class="main-menu">
                <li class="active">
-                  <a href="index.php?page=inicio">Home</a>
+                  <a href="index.php?pagina=inicio">Home</a>
                </li>
                <li>
-                  <a href="index.php?page=about">About</a>
+                  <a href="index.php?pagina=about">About</a>
                </li>
                <li>
                   <a href="#0">Service <i class="fas fa-chevron-down"></i></a>
@@ -85,17 +85,17 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            <span>Service Single</span>
                         </a>
                      </li>
                   </ul>
                </li>
                <li>
-                  <a href="index.php?page=story">Our story</a>
+                  <a href="index.php?pagina=story">Our story</a>
                </li>
                <li>
-                  <a href="#0">Pages <i class="fas fa-chevron-down"></i></a>
+                  <a href="#0">Paginas <i class="fas fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                      <li class="subtwohober">
                         <a href="event.html">
@@ -103,12 +103,12 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=gallery">
+                        <a href="index.php?pagina=gallery">
                            <span>Gallery</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=error">
+                        <a href="index.php?pagina=error">
                            <span>Error 404</span>
                         </a>
                      </li>
@@ -118,19 +118,19 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   <a href="#0">Blog <i class="fas fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                      <li class="subtwohober">
-                        <a href="index.php?page=blog">
+                        <a href="index.php?pagina=blog">
                            <span>Blog</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=blog-single">
+                        <a href="index.php?pagina=blog-single">
                            <span>Blog Single</span>
                         </a>
                      </li>
                   </ul>
                </li>
                <li>
-                  <a href="index.php?page=contact">Contact</a>
+                  <a href="index.php?pagina=contact">Contact</a>
                </li>
             </ul>
          </div>
@@ -155,7 +155,7 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             </h1>
             <ul class="right__content">
                <li>
-                  <a href="index.php?page=inicio">
+                  <a href="index.php?pagina=inicio">
                      Home
                   </a>
                </li>
@@ -185,13 +185,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">top 10 gifts</a>
+                        <a href="index.php?pagina=blog-single">top 10 gifts</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -203,13 +203,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">Best Photography Idea</a>
+                        <a href="index.php?pagina=blog-single">Best Photography Idea</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -221,13 +221,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">Wedding Flower Collect</a>
+                        <a href="index.php?pagina=blog-single">Wedding Flower Collect</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -239,13 +239,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">top 10 gifts</a>
+                        <a href="index.php?pagina=blog-single">top 10 gifts</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -257,13 +257,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">Best Photography Idea</a>
+                        <a href="index.php?pagina=blog-single">Best Photography Idea</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -275,13 +275,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">Wedding Flower Collect</a>
+                        <a href="index.php?pagina=blog-single">Wedding Flower Collect</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -293,13 +293,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">top 10 gifts</a>
+                        <a href="index.php?pagina=blog-single">top 10 gifts</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -311,13 +311,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">Best Photography Idea</a>
+                        <a href="index.php?pagina=blog-single">Best Photography Idea</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -329,13 +329,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="blog__content">
                      <h4>
-                        <a href="index.php?page=blog-single">Wedding Flower Collect</a>
+                        <a href="index.php?pagina=blog-single">Wedding Flower Collect</a>
                      </h4>
                      <p>
                         The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
                      </p>
                      <div class="blog-button mt-2">
-                        <a href="index.php?page=blog-single" class="blog-btn">read more</a>
+                        <a href="index.php?pagina=blog-single" class="blog-btn">read more</a>
                      </div>
                   </div>
                </div>
@@ -374,7 +374,7 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
          <div class="border__area">
             <div class="container">
                <div class="footer__logo center">
-                  <a href="index.php?page=inicio">
+                  <a href="index.php?pagina=inicio">
                      <img src="assets/img/logo/logo.png" alt="footer__logo">
                   </a>
                </div>
@@ -398,13 +398,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                      </li>
                   </ul>
                   <ul class="footer__menu">
-                     <li><a href="index.php?page=inicio">home</a></li>
-                     <li><a href="index.php?page=about">about</a></li>
-                     <li><a href="index.php?page=service">service</a></li>
-                     <li><a href="index.php?page=story">Story</a></li>
-                     <li><a href="index.php?page=gallery">gallery</a></li>
-                     <li><a href="index.php?page=blog">blog</a></li>
-                     <li class="mr-none"><a href="index.php?page=contact">contact</a></li>
+                     <li><a href="index.php?pagina=inicio">home</a></li>
+                     <li><a href="index.php?pagina=about">about</a></li>
+                     <li><a href="index.php?pagina=service">service</a></li>
+                     <li><a href="index.php?pagina=story">Story</a></li>
+                     <li><a href="index.php?pagina=gallery">gallery</a></li>
+                     <li><a href="index.php?pagina=blog">blog</a></li>
+                     <li class="mr-none"><a href="index.php?pagina=contact">contact</a></li>
                   </ul>
                </div>
             </div>

@@ -36,7 +36,7 @@
       <div class="container">
          <div class="header-wrapper">
             <div class="logo-menu">
-               <a href="index.php?page=index" class="logo">
+               <a href="index.php?pagina=index" class="logo">
                   <img src="assets/img/logo/logo1.png" alt="img">
                </a>
             </div>
@@ -47,50 +47,50 @@
             </div>
             <ul class="main-menu">
                <li class="active">
-                  <a href="index.php?page=login">Login</a>
+                  <a href="index.php?pagina=login">Login</a>
                </li>
                <li class="active">
-                  <a href="index.php?page=register">Register</a>
+                  <a href="index.php?pagina=register">Register</a>
                </li>
                <li class="active">
-                  <a href="index.php?page=inicio">Home</a>
+                  <a href="index.php?pagina=inicio">Home</a>
                </li>
                <li>
-                  <a href="index.php?page=about">About</a>
+                  <a href="index.php?pagina=about">About</a>
                </li>
                <li>
                   <a href="#0">Service <i class="fas fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                      <li class="subtwohober">
-                        <a href="index.php?page=service">
+                        <a href="index.php?pagina=service">
                            <span>Service</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            <span>Service Single</span>
                         </a>
                      </li>
                   </ul>
                </li>
                <li>
-                  <a href="index.php?page=story">Our story</a>
+                  <a href="index.php?pagina=story">Our story</a>
                </li>
                <li>
-                  <a href="#0">Pages <i class="fas fa-chevron-down"></i></a>
+                  <a href="#0">Paginas <i class="fas fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                      <li class="subtwohober">
-                        <a href="index.php?page=event">
+                        <a href="index.php?pagina=event">
                            <span>Our event</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=gallery">
+                        <a href="index.php?pagina=gallery">
                            <span>Gallery</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=error">
+                        <a href="index.php?pagina=error">
                            <span>Error 404</span>
                         </a>
                      </li>
@@ -100,22 +100,22 @@
                   <a href="#0">Blog <i class="fas fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                      <li class="subtwohober">
-                        <a href="index.php?page=blog">
+                        <a href="index.php?pagina=blog">
                            <span>Blog</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=blog-single">
+                        <a href="index.php?pagina=blog-single">
                            <span>Blog Single</span>
                         </a>
                      </li>
                   </ul>
                </li>
                <li>
-                  <a href="index.php?page=contact">Contact</a>
+                  <a href="index.php?pagina=contact">Contact</a>
                </li>
                <li>
-                  <a href="index.php?page=exit">Exit</a>
+                  <a href="index.php?pagina=exit">Exit</a>
                </li>
             </ul>
          </div>
@@ -279,7 +279,7 @@
                         <div class="love__content">
                            <h3>The Proposal</h3>
                            <p>
-                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                              It is a long established fact that a reader will be distracted by the readable content of a pagina when looking at its layout.
                            </p>
                         </div>
                      </div>
@@ -376,7 +376,7 @@
                         Danial Dennis
                      </h3>
                      <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        It is a long established fact that a reader will be distracted by the readable content of a pagina when looking at its layout.
                      </p>
                      <div class="testi__shape mt-3">
                         <img src="assets/img/testi/shape.png" alt="flower__image">
@@ -394,7 +394,7 @@
                         Shakira Judith
                      </h3>
                      <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        It is a long established fact that a reader will be distracted by the readable content of a pagina when looking at its layout.
                      </p>
                      <div class="testi__shape mt-3">
                         <img src="assets/img/testi/shape.png" alt="flower__image">
@@ -656,7 +656,7 @@
          <div class="border__area">
             <div class="container">
                <div class="footer__logo center">
-                  <a href="index.php?page=inicio">
+                  <a href="index.php?pagina=inicio">
                      <img src="assets/img/logo/logo.png" alt="footer__logo">
                   </a>
                </div>
@@ -680,13 +680,13 @@
                      </li>
                   </ul>
                   <ul class="footer__menu">
-                     <li><a href="index.php?page=inicio">home</a></li>
-                     <li><a href="index.php?page=about">about</a></li>
-                     <li><a href="index.php?page=service">service</a></li>
-                     <li><a href="index.php?page=story">Story</a></li>
-                     <li><a href="index.php?page=gallery">gallery</a></li>
-                     <li><a href="index.php?page=blog">blog</a></li>
-                     <li class="mr-none"><a href="index.php?page=contact">contact</a></li>
+                     <li><a href="index.php?pagina=inicio">home</a></li>
+                     <li><a href="index.php?pagina=about">about</a></li>
+                     <li><a href="index.php?pagina=service">service</a></li>
+                     <li><a href="index.php?pagina=story">Story</a></li>
+                     <li><a href="index.php?pagina=gallery">gallery</a></li>
+                     <li><a href="index.php?pagina=blog">blog</a></li>
+                     <li class="mr-none"><a href="index.php?pagina=contact">contact</a></li>
                   </ul>
                </div>
             </div>
