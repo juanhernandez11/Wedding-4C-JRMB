@@ -3,7 +3,7 @@ if (!isset($_SESSION['validarIngreso'])) {
    echo
    '
             <script>
-                window.location = "index.php?page=login";
+                window.location = "index.php?pagina=login";
             </script>
         ';
    return;
@@ -12,7 +12,7 @@ if (!isset($_SESSION['validarIngreso'])) {
       echo
       '
                 <script>
-                    window.location = "index.php?page=login";
+                    window.location = "index.php?pagina=login";
                 </script>
             ';
       return;
@@ -60,7 +60,7 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
       <div class="container">
          <div class="header-wrapper">
             <div class="logo-menu">
-               <a href="index.php?page=inicio" class="logo">
+               <a href="index.php?pagina=inicio" class="logo">
                   <img src="assets/img/logo/logo1.png" alt="img">
                </a>
             </div>
@@ -71,44 +71,44 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             </div>
             <ul class="main-menu">
                <li class="active">
-                  <a href="index.php?page=inicio">Home</a>
+                  <a href="index.php?pagina=inicio">Home</a>
                </li>
                <li>
-                  <a href="index.php?page=about">About</a>
+                  <a href="index.php?pagina=about">About</a>
                </li>
                <li>
                   <a href="#0">Service <i class="fas fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                      <li class="subtwohober">
-                        <a href="index.php?page=service">
+                        <a href="index.php?pagina=service">
                            <span>Service</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            <span>Service Single</span>
                         </a>
                      </li>
                   </ul>
                </li>
                <li>
-                  <a href="index.php?page=story">Our story</a>
+                  <a href="index.php?pagina=story">Our story</a>
                </li>
                <li>
-                  <a href="#0">Pages <i class="fas fa-chevron-down"></i></a>
+                  <a href="#0">paginas <i class="fas fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                      <li class="subtwohober">
-                        <a href="index.php?page=event">
+                        <a href="index.php?pagina=event">
                            <span>Our event</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=gallery">
+                        <a href="index.php?pagina=gallery">
                            <span>Gallery</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=error">
+                        <a href="index.php?pagina=error">
                            <span>Error 404</span>
                         </a>
                      </li>
@@ -118,19 +118,19 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   <a href="#0">Blog <i class="fas fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                      <li class="subtwohober">
-                        <a href="index.php?page=blog">
+                        <a href="index.php?pagina=blog">
                            <span>Blog</span>
                         </a>
                      </li>
                      <li class="subtwohober">
-                        <a href="index.php?page=blog-single">
+                        <a href="index.php?pagina=blog-single">
                            <span>Blog Single</span>
                         </a>
                      </li>
                   </ul>
                </li>
                <li>
-                  <a href="index.php?page=contact">Contact</a>
+                  <a href="index.php?pagina=contact">Contact</a>
                </li>
             </ul>
          </div>
@@ -155,7 +155,7 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             </h1>
             <ul class="right__content">
                <li>
-                  <a href="index.php?page=inicio">
+                  <a href="index.php?pagina=inicio">
                      Home
                   </a>
                </li>
@@ -193,14 +193,14 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                   </div>
                   <div class="service__content">
                      <h4>
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            Photography
                         </a>
                      </h4>
                      <p>
                         It means so much to witness the joy of your wedding day. Congratulations to you both on finding the perfect person.
                      </p>
-                     <a href="index.php?page=service-single" class="party__btn">
+                     <a href="index.php?pagina=service-single" class="party__btn">
                         read more
                      </a>
                   </div>
@@ -209,20 +209,20 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                <div class="service__items">
                   <div class="service__thumb">
-                     <a href="index.php?page=service-single">
+                     <a href="index.php?pagina=service-single">
                         <img src="assets/img/service/service2.jpg" alt="service__image">
                      </a>
                   </div>
                   <div class="service__content">
                      <h4>
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            reception
                         </a>
                      </h4>
                      <p>
                         It means so much to witness the joy of your wedding day. Congratulations to you both on finding the perfect person.
                      </p>
-                     <a href="index.php?page=service-single" class="party__btn">
+                     <a href="index.php?pagina=service-single" class="party__btn">
                         read more
                      </a>
                   </div>
@@ -231,20 +231,20 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                <div class="service__items">
                   <div class="service__thumb">
-                     <a href="index.php?page=service-single">
+                     <a href="index.php?pagina=service-single">
                         <img src="assets/img/party/wedding3.jpg" alt="service__image">
                      </a>
                   </div>
                   <div class="service__content">
                      <h4>
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            wedding cake
                         </a>
                      </h4>
                      <p>
                         It means so much to witness the joy of your wedding day. Congratulations to you both on finding the perfect person.
                      </p>
-                     <a href="index.php?page=service-single" class="party__btn">
+                     <a href="index.php?pagina=service-single" class="party__btn">
                         read more
                      </a>
                   </div>
@@ -253,20 +253,20 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                <div class="service__items">
                   <div class="service__thumb">
-                     <a href="index.php?page=service-single">
+                     <a href="index.php?pagina=service-single">
                         <img src="assets/img/service/service3.jpg" alt="service__image">
                      </a>
                   </div>
                   <div class="service__content">
                      <h4>
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            wedding post
                         </a>
                      </h4>
                      <p>
                         It means so much to witness the joy of your wedding day. Congratulations to you both on finding the perfect person.
                      </p>
-                     <a href="index.php?page=service-single" class="party__btn">
+                     <a href="index.php?pagina=service-single" class="party__btn">
                         read more
                      </a>
                   </div>
@@ -275,20 +275,20 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                <div class="service__items style__service">
                   <div class="service__thumb">
-                     <a href="index.php?page=service-single">
+                     <a href="index.php?pagina=service-single">
                         <img src="assets/img/service/service4.jpg" alt="service__image">
                      </a>
                   </div>
                   <div class="service__content">
                      <h4>
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            wedding ring
                         </a>
                      </h4>
                      <p>
                         It means so much to witness the joy of your wedding day. Congratulations to you both on finding the perfect person.
                      </p>
-                     <a href="index.php?page=service-single" class="party__btn">
+                     <a href="index.php?pagina=service-single" class="party__btn">
                         read more
                      </a>
                   </div>
@@ -297,20 +297,20 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                <div class="service__items style__two">
                   <div class="service__thumb">
-                     <a href="index.php?page=service-single">
+                     <a href="index.php?pagina=service-single">
                         <img src="assets/img/service/service5.jpg" alt="service__image">
                      </a>
                   </div>
                   <div class="service__content">
                      <h4>
-                        <a href="index.php?page=service-single">
+                        <a href="index.php?pagina=service-single">
                            wedding dress
                         </a>
                      </h4>
                      <p>
                         It means so much to witness the joy of your wedding day. Congratulations to you both on finding the perfect person.
                      </p>
-                     <a href="index.php?page=service-single" class="party__btn">
+                     <a href="index.php?pagina=service-single" class="party__btn">
                         read more
                      </a>
                   </div>
@@ -327,7 +327,7 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
          <div class="border__area">
             <div class="container">
                <div class="footer__logo center">
-                  <a href="index.php?page=inicio">
+                  <a href="index.php?pagina=inicio">
                      <img src="assets/img/logo/logo.png" alt="footer__logo">
                   </a>
                </div>
@@ -351,13 +351,13 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                      </li>
                   </ul>
                   <ul class="footer__menu">
-                     <li><a href="index.php?page=inicio">home</a></li>
-                     <li><a href="index.php?page=about">about</a></li>
-                     <li><a href="index.php?page=service">service</a></li>
-                     <li><a href="index.php?page=story">Story</a></li>
-                     <li><a href="index.php?page=gallery">gallery</a></li>
-                     <li><a href="index.php?page=blog">blog</a></li>
-                     <li class="mr-none"><a href="index.php?page=contact">contact</a></li>
+                     <li><a href="index.php?pagina=inicio">home</a></li>
+                     <li><a href="index.php?pagina=about">about</a></li>
+                     <li><a href="index.php?pagina=service">service</a></li>
+                     <li><a href="index.php?pagina=story">Story</a></li>
+                     <li><a href="index.php?pagina=gallery">gallery</a></li>
+                     <li><a href="index.php?pagina=blog">blog</a></li>
+                     <li class="mr-none"><a href="index.php?pagina=contact">contact</a></li>
                   </ul>
                </div>
             </div>

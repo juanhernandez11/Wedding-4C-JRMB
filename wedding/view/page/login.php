@@ -13,7 +13,7 @@
       <div class="container">
          <div class="header-wrapper">
             <div class="logo-menu">
-               <a href="index.php?page=index" class="logo">
+               <a href="index.php?pagina=index" class="logo">
                   <img src="assets/img/logo/logo1.png" alt="img">
                </a>
             </div>
@@ -24,14 +24,14 @@
             </div>
             <ul class="main-menu">
                <li class="active">
-                  <a href="index.php?page=register">Register</a>
+                  <a href="index.php?pagina=register">Register</a>
                </li>
                <li class="active">
-                  <a href="index.php?page=inicio">Home</a>
+                  <a href="index.php?pagina=inicio">Home</a>
                </li>
                <li>
                <li>
-                  <a href="index.php?page=exit">Exit</a>
+                  <a href="index.php?pagina=exit">Exit</a>
                </li>
             </ul>
          </div>
@@ -46,7 +46,7 @@
                 </h1>
                 <ul class="right__content">
                     <li>
-                        <a href="index.php?page=inicio">
+                        <a href="index.php?pagina=inicio">
                             Home
                         </a>
                     </li>
@@ -100,7 +100,7 @@
                     <div class="border__area">
                         <div class="container">
                             <div class="footer__logo center">
-                                <a href="index.php?page=inicio">
+                                <a href="index.php?pagina=inicio">
                                     <img src="assets/img/logo/logo.png" alt="footer__logo">
                                 </a>
                             </div>
@@ -124,13 +124,13 @@
                                     </li>
                                 </ul>
                                 <ul class="footer__menu">
-                                    <li><a href="index.php?page=inicio">home</a></li>
-                                    <li><a href="index.php?page=about">about</a></li>
-                                    <li><a href="index.php?page=service">service</a></li>
-                                    <li><a href="index.php?page=story">Story</a></li>
-                                    <li><a href="index.php?page=gallery">gallery</a></li>
-                                    <li><a href="index.php?page=blog">blog</a></li>
-                                    <li class="mr-none"><a href="index.php?page=contact">contact</a></li>
+                                    <li><a href="index.php?pagina=inicio">home</a></li>
+                                    <li><a href="index.php?pagina=about">about</a></li>
+                                    <li><a href="index.php?pagina=service">service</a></li>
+                                    <li><a href="index.php?pagina=story">Story</a></li>
+                                    <li><a href="index.php?pagina=gallery">gallery</a></li>
+                                    <li><a href="index.php?pagina=blog">blog</a></li>
+                                    <li class="mr-none"><a href="index.php?pagina=contact">contact</a></li>
                                 </ul>
                             </div>
                         </div>

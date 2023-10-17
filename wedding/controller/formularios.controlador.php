@@ -2,25 +2,31 @@
 
 class ControladorFormularios
 {
-
     static public function ctrRegistro()
     {
         if (isset($_POST["registroNombre"])) {
             $tabla = "registros";
 
+            $nombre = self::limpiarInput($_POST["registroNombre"]);
+            $email = self::limpiarInput($_POST["registroEmail"]);
+            $password = password_hash(self::limpiarInput($_POST["registroPassword"]), PASSWORD_BCRYPT);
+
             $datos = array(
-                "nombre" => $_POST["registroNombre"],
-                "email" => $_POST["registroEmail"],
-                "password" => $_POST["registroPassword"]
+                "nombre" => $nombre,
+                "email" => $email,
+                "password" => $password
             );
+
             $respuesta = ModeloFormularios::mdlRegistro($tabla, $datos);
 
             return $respuesta;
         }
     }
+
     static public function ctrSeleccionarRegistros($item, $valor)
     {
         $tabla = "registros";
+        $valor = self::limpiarInput($valor);
         $respuesta = ModeloFormularios::mdlSeleccionarRegistros($tabla, $item, $valor);
         return $respuesta;
     }
@@ -30,9 +36,11 @@ class ControladorFormularios
         if (isset($_POST["loginEmail"])) {
             $tabla = "registros";
             $item = "email";
-            $valor = $_POST["loginEmail"];
+            $valor = self::limpiarInput($_POST["loginEmail"]);
+
             $respuesta = ModeloFormularios::mdlSeleccionarRegistros($tabla, $item, $valor);
-            if (is_array($respuesta) && $respuesta["email"] == $_POST["loginEmail"] && $respuesta["password"] == $_POST["loginPassword"]) {
+
+            if (is_array($respuesta) && password_verify(self::limpiarInput($_POST["loginPassword"]), $respuesta["password"])) {
                 $_SESSION["validarIngreso"] = "ok";
 
                 echo '
@@ -68,17 +76,16 @@ class ControladorFormularios
     static public function ctrActualizarRegistro()
     {
         if (isset($_POST['actualizarNombre'])) {
-            if ($_POST['actualizarPassword'] != "") {
-                $password = $_POST['actualizarPassword'];
-            } else {
-                $password = $_POST['passwordActual'];
+            $password = "";
+            if (!empty($_POST['actualizarPassword'])) {
+                $password = password_hash(self::limpiarInput($_POST['actualizarPassword']), PASSWORD_BCRYPT);
             }
 
             $tabla = "registros";
             $datos = array(
-                "id" => $_POST['idUsuario'],
-                "nombre" => $_POST['actualizarNombre'],
-                "email" => $_POST['actualizarEmail'],
+                "id" => self::limpiarInput($_POST['idUsuario']),
+                "nombre" => self::limpiarInput($_POST['actualizarNombre']),
+                "email" => self::limpiarInput($_POST['actualizarEmail']),
                 "password" => $password
             );
             $respuesta = ModeloFormularios::mdlActualizarRegistro($tabla, $datos);
@@ -86,11 +93,12 @@ class ControladorFormularios
             return $respuesta;
         }
     }
+
     public function ctrEliminarRegistro()
     {
         if (isset($_POST["eliminarRegistro"])) {
             $tabla = "registros";
-            $valor = $_POST["eliminarRegistro"];
+            $valor = self::limpiarInput($_POST["eliminarRegistro"]);
             $respuesta = ModeloFormularios::mdlEliminarRegistros($tabla, $valor);
 
             if ($respuesta == "ok") {
@@ -110,5 +118,10 @@ class ControladorFormularios
 
             return $respuesta;
         }
+    }
+
+    static public function limpiarInput($input)
+    {
+        return htmlspecialchars(trim($input), ENT_QUOTES, 'UTF-8');
     }
 }

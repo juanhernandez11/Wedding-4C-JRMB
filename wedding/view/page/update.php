@@ -3,7 +3,7 @@ if (!isset($_SESSION['validarIngreso'])) {
     echo
     '
                     <script>
-                        window.location = "index.php?page=login";
+                        window.location = "index.php?pagina=login";
                     </script>
                 ';
     return;
@@ -12,7 +12,7 @@ if (!isset($_SESSION['validarIngreso'])) {
         echo
         '
                         <script>
-                            window.location = "index.php?page=login";
+                            window.location = "index.php?pagina=login";
                         </script>
                     ';
         return;
@@ -79,7 +79,7 @@ if (isset($_GET['id'])) {
                     <div class="alert alert-success">El usuario ha sido actualizado</div>
                     <script>
                         setTimeout(function(){
-                            window.location = "index.php?page=inicio";
+                            window.location = "index.php?pagina=inicio";
                         }, 1600);
                     </script>
                 ';
