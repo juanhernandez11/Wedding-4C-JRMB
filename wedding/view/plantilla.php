@@ -46,26 +46,26 @@ session_start();
 <?php
 if (isset($_GET["page"])) {
     if (
-        $_GET["page"] == "inicio" ||
-        $_GET["page"] == "about" ||
-        $_GET["page"] == "service" ||
-        $_GET["page"] == "story" ||
-        $_GET["page"] == "gallery" ||
-        $_GET["page"] == "blog" ||
-        $_GET["page"] == "blog-single" ||
-        $_GET["page"] == "contact" ||
-        $_GET["page"] == "event" ||
-        $_GET["page"] == "service-single" ||
-        $_GET["page"] == "login" ||
-        $_GET["page"] == "register" ||
-        $_GET["page"] == "data" ||
-        $_GET["page"] == "exit"
+        $_GET["pagina"] == "inicio" ||
+        $_GET["pagina"] == "about" ||
+        $_GET["pagina"] == "service" ||
+        $_GET["pagina"] == "story" ||
+        $_GET["pagina"] == "gallery" ||
+        $_GET["pagina"] == "blog" ||
+        $_GET["pagina"] == "blog-single" ||
+        $_GET["pagina"] == "contact" ||
+        $_GET["pagina"] == "event" ||
+        $_GET["pagina"] == "service-single" ||
+        $_GET["pagina"] == "login" ||
+        $_GET["pagina"] == "register" ||
+        $_GET["pagina"] == "data" ||
+        $_GET["pagina"] == "exit"
     ) {
 
-        include "page/" . $_GET["page"] . ".php";
+        include "pagina/" . $_GET["page"] . ".php";
     } else {
-        include "page/error.php";
+        include "pagina/error.php";
     }
 } else {
-    include "page/register.php";
+    include "pagina/register.php";
 }
